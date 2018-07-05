@@ -1,0 +1,31 @@
+::1 - - [05/Jul/2018:10:17:50 +0000] "GET / HTTP/1.1" 200 13 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:17:50 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:17:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:19:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:19:38 +0000] "GET /users HTTP/1.1" 404 144 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:19:47 +0000] "GET /user HTTP/1.1" 200 19 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:48:09 +0000] "GET /user HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:48:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:48:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:10:48:35 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:11:18:03 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [05/Jul/2018:11:18:03 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+::1 - - [05/Jul/2018:11:18:11 +0000] "GET /user HTTP/1.1" 404 143
+::1 - - [05/Jul/2018:11:27:35 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [05/Jul/2018:11:27:41 +0000] "GET /user HTTP/1.1" 404 143
+::1 - - [05/Jul/2018:11:27:53 +0000] "GET /user HTTP/1.1" 404 143
+::1 - - [05/Jul/2018:11:27:56 +0000] "GET /user HTTP/1.1" 404 143
+::1 - - [05/Jul/2018:11:28:12 +0000] "GET /user HTTP/1.1" 200 19 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:11:33:05 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:11:33:08 +0000] "GET /user HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:11:43:52 +0000] "GET /user HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:11:45:27 +0000] "GET /user HTTP/1.1" 304 -
+::1 - - [05/Jul/2018:11:47:01 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [05/Jul/2018:11:47:15 +0000] "GET / HTTP/1.1" 304 -
+[0mGET / [36m304 [0m3.623 ms - -[0m
+[0mGET /user [36m304 [0m0.812 ms - -[0m
+::1 - GET /user HTTP/1.1 304 - - 3.295 ms
+::1 - GET /user HTTP/1.1 304 - - 1.012 ms
+::1 - GET /user HTTP/1.1 304 - - 0.476 ms
+::1 - - [05/Jul/2018:11:52:00 +0000] "GET /user HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+::1 - - [05/Jul/2018:11:52:04 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"

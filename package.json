@@ -1,0 +1,27 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "A web service log file consists of an IP address, timestamp, the API called and a message. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Higenious"
+  },
+  "keywords": [
+    "A",
+    "web",
+    "service",
+    "log",
+    "file",
+    "c"
+  ],
+  "author": "Chet@n",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "file-system": "^2.2.2"
+  }
+}
